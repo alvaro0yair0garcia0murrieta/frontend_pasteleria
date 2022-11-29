@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de javaScript</title>
+</head>
+<body>
+   <h1>Fundamentos de javaScript</h1> 
+   <script> 
+    var hola = "Hola mundo";
+    let hello = "Hello World";
+    console.log(hola);
+    console.log(hello);
+    console.log(window);
+
+    //ambito del bloque
+    var musica ="Rock"; //no se usa var es incorrecto se usa let
+    console.log("variable musica antes del bloque", musica);
+
+    {
+
+    let musica= "pop";
+    console.log("variable musica dentro del bloque", musica);
+    }
+
+
+   </script>
+</body>
+</html>

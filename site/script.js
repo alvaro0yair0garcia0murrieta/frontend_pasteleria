@@ -1,1 +1,2 @@
-console.log("Choo choo!");
+let menu = document.querySelector('button');
+let navbar = document.querySelector('');
