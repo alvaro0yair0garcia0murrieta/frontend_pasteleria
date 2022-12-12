@@ -4,7 +4,11 @@ btnRegistrar.addEventListener("click", function () {
         email : document.getElementById("email").value,
         password : document.getElementById("password").value
     }).then(function(){
-        
+        if(email == document.getElementById("email").value && password == document.getElementById(password).value){
+            return login();
+        }else{
+            return "Datos equivocados";
+        }
     })
 
 
@@ -13,8 +17,7 @@ btnRegistrar.addEventListener("click", function () {
 
 
 function login(){
-    window.location.href="registro.html";
+    window.location.href="index.html";
 }
-
 
 

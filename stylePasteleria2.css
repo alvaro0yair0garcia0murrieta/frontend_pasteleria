@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+ }
+ .all-content{
+     background: #2e1700;
+ }
+ /* navbar */
+ .navbar{
+     background-color: #573818;
+     padding-left: 50px;
+     font-weight: bold;
+ }
+ .link-btn{
+     width: 140px;
+     height: 38px;
+     color: white;
+     margin-left: 190px;
+ }
+ .link-btn1{
+     width: 140px;
+     height: 38px;
+     color: white;
+     margin-left: 210;
+ }
+ .link-btn:hover{
+     background-color: var(black);
+     color: var(white);
+ }
+ #logo{
+     font-size: 23px;
+     color: white;
+ }
+ #logo img{
+     margin-bottom: 15px;
+ }
+ .navbar-nav{
+     margin-left: 10px;
+ }
+ .nav-link{
+     color: white;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px black;
+     margin-left: 15px;
+     transition: 0.5s ease;
+ }
+ .nav-link:hover{
+     background-color: rgba(161,109,14,1);
+     color: white;
+     border-radius: 5px;
+ }
+ .icons{
+     margin-left: 30px;
+ }
+ .icons img{
+     margin-left: 10px;
+     transition: 0.5s ease;
+     cursor: pointer;
+ }
+ .icons img:hover{
+     transform: translateY(-5px);
+ }
+ @media screen and (max-width:330px){
+     #logo{
+         font-size: 15px;
+     }
+ }
+ .div-titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .div-titulo h1{
+    font-weight: 300;
+    color: white;
+ }
+ .contenedor{
+    width: 100%;
+    height: calc(100vh -100px);
+    display: flex;
+    justify-content: center;
+    
+ }
+ .contenedor .div-pedido{
+    width: 30%;
+    height: 250;
+    margin: 15px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+ }
+.contenedor .div-pedido h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: black;
+}
+.contenedor .div-pedido form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .div-pedido form input,
+.contenedor .div-pedido form button{
+    width: 60%;
+    padding: 10px 10 px;
+    margin: 10px 10px;
+}
+/* Listado*/
+.contenedor .div-listado{
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgba(135, 132,132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+.contenedor.div-listado h2{
+    margin: 10px;
+    font-weight: 300;
+    font-size: 2en;
+    color: whitesmoke;
+}
+.contenedor .div-listado .div-pedidos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+.contenedor .div-listado .div-pedidos p {
+    margin: 10px 0;
+    font-size: 1 en;
+    color: #ddd;
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+.btn-editar{
+    background-color: green;
+}
+.btn-eliminar{
+    background-color: red;
+}
+.container h1{
+    font-weight: 300;
+    color: white;
+    
+ }
+ .container p{
+    font-weight: 100;
+    color: whitesmoke;
+ }
