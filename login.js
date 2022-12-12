@@ -4,11 +4,7 @@ btnRegistrar.addEventListener("click", function () {
         email : document.getElementById("email").value,
         password : document.getElementById("password").value
     }).then(function(){
-        if(email == document.getElementById("email").value && password == document.getElementById(password).value){
-            return login();
-        }else{
-            return "Datos equivocados";
-        }
+ 
     })
 
 
